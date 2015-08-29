@@ -64,6 +64,7 @@ namespace CricketTeamDistributor
             //TeamBuilding Algorithm
 
             //Correct this. Take selected items from where Build Button is entered.
+
             List<Player> BuildList = await PlayerFile.ViewMyPlayers(Game);
             //
 
@@ -115,19 +116,7 @@ namespace CricketTeamDistributor
                         {
                             TeamOne.Add(BuildList[PermuteArray[i]]);
                         }
-
-                        for (int i = 0; i < TeamOne.Count; i++)
-                        {
-                            for (int j = 0; j < BuildList.Count; j++)
-                            {
-                                if (Helper(TeamOne, BuildList, i, j))
-                                {
-                                    BuildList.RemoveAt(j);
-                                }
-
-                            }
-                        }
-                        TeamTwo = BuildList;
+                        TeamTwo = BuildList.Except(TeamOne).ToList();
                         break;
                     }
                 }
@@ -144,9 +133,11 @@ namespace CricketTeamDistributor
                 }
 
                 int lowest = TotalRating.Min();
-                
+
+
                 for (int i = 0; i < BuildList.Count; i++)
                 {
+                    
                     if (lowest == TotalRating[i])
                     {
                         BicholiBox.Text = "Bicholi:"+ BuildList[i].Name;
@@ -154,7 +145,6 @@ namespace CricketTeamDistributor
                         break;
                     }
                 }
-
                 int RatingsForTeams = TotalRating.Sum();
                 int RatingTeamA;
 
@@ -166,14 +156,14 @@ namespace CricketTeamDistributor
 
                 int[] PermuteArray = new int[PlayersPerTeam];
 
-                while(true)
+                while (true)
                 {
                     for (int i = 0; i < PlayersPerTeam; i++)
                     {
-                        PermuteArray[i] = r.Next(0,BuildList.Count());
+                        PermuteArray[i] = r.Next(0, BuildList.Count());
                         for (int j = 0; j < i; j++)
                         {
-                            if (PermuteArray[i]==PermuteArray[j])
+                            if (PermuteArray[i] == PermuteArray[j])
                             {
                                 i--;
                             }
@@ -193,23 +183,12 @@ namespace CricketTeamDistributor
                         {
                             TeamOne.Add(BuildList[PermuteArray[i]]);
                         }
-                        
-                        for (int i = 0; i < TeamOne.Count; i++)
-                        {
-                            for (int j = 0; j < BuildList.Count; j++)
-                            {
-                                if (Helper(TeamOne, BuildList, i, j))
-                                {
-                                    BuildList.RemoveAt(j);
-                                }
-
-                            }
-                        }
-                        TeamTwo = BuildList;
+                        TeamTwo = BuildList.Except(TeamOne).ToList();
                         break;
                     }
                 }
 
+                ///End
             }
 
 
