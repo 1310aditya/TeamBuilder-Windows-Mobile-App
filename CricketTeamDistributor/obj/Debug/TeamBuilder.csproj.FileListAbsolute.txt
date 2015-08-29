@@ -1,0 +1,285 @@
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\bin\Debug\App.xbf
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\bin\Debug\MainPage.xbf
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\bin\Debug\Page2.xbf
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\bin\Debug\CricketTeamDistributor.xr.xml
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\bin\Debug\CricketTeamDistributor.exe
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\bin\Debug\CricketTeamDistributor.pdb
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\bin\Debug\resources.pri
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\bin\Debug\AppxManifest.xml
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\bin\Debug\TeamBuilder.build.appxrecipe
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\obj\Debug\App.g.i.cs
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\obj\Debug\App.g.cs
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\obj\Debug\MainPage.g.i.cs
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\obj\Debug\MainPage.g.cs
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\obj\Debug\Page2.g.i.cs
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\obj\Debug\Page2.g.cs
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\obj\Debug\App.xaml
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\obj\Debug\App.xbf
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\obj\Debug\MainPage.xaml
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\obj\Debug\Page2.xaml
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\obj\Debug\MainPage.xbf
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\obj\Debug\Page2.xbf
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\obj\Debug\CricketTeamDistributor.exe
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\obj\Debug\CricketTeamDistributor.pdb
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\obj\Debug\priconfig.xml
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\obj\Debug\priconfig.xml.intermediate
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\obj\Debug\layout.resfiles
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\obj\Debug\layout.resfiles.intermediate
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\obj\Debug\resources.resfiles
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\obj\Debug\resources.resfiles.intermediate
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\obj\Debug\pri.resfiles
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\obj\Debug\pri.resfiles.intermediate
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\obj\Debug\qualifiers.txt
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\obj\Debug\ProjectArchitectures.txt
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\bin\Debug\AddTeam.xbf
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\bin\Debug\MyTeam.xbf
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\obj\Debug\AddTeam.g.i.cs
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\obj\Debug\AddTeam.g.cs
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\obj\Debug\MyTeam.g.i.cs
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\obj\Debug\MyTeam.g.cs
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\obj\Debug\AddTeam.xaml
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\obj\Debug\AddTeam.xbf
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\obj\Debug\MyTeam.xaml
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\obj\Debug\MyTeam.xbf
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\bin\Debug\BuildTeam.xbf
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\obj\Debug\BuildTeam.g.i.cs
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\obj\Debug\BuildTeam.g.cs
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\obj\Debug\BuildTeam.xaml
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\obj\Debug\BuildTeam.xbf
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\obj\Debug\AddNotif.g.i.cs
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\obj\Debug\AddNotif.g.cs
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\bin\Debug\AddNotif.xbf
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\obj\Debug\AddNotif.xaml
+C:\Users\Aditya\Desktop\CricketTeamDistributor\CricketTeamDistributor\obj\Debug\AddNotif.xbf
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\bin\Debug\App.xbf
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\bin\Debug\AddNotif.xbf
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\bin\Debug\AddTeam.xbf
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\bin\Debug\BuildTeam.xbf
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\bin\Debug\MainPage.xbf
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\bin\Debug\MyTeam.xbf
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\bin\Debug\Page2.xbf
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\bin\Debug\CricketTeamDistributor.xr.xml
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\bin\Debug\CricketTeamDistributor.exe
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\bin\Debug\CricketTeamDistributor.pdb
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\bin\Debug\resources.pri
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\bin\Debug\AppxManifest.xml
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\bin\Debug\TeamBuilder.build.appxrecipe
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\obj\Debug\App.g.i.cs
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\obj\Debug\App.g.cs
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\obj\Debug\AddNotif.g.i.cs
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\obj\Debug\AddNotif.g.cs
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\obj\Debug\AddTeam.g.i.cs
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\obj\Debug\AddTeam.g.cs
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\obj\Debug\BuildTeam.g.i.cs
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\obj\Debug\BuildTeam.g.cs
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\obj\Debug\MainPage.g.i.cs
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\obj\Debug\MainPage.g.cs
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\obj\Debug\MyTeam.g.i.cs
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\obj\Debug\MyTeam.g.cs
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\obj\Debug\Page2.g.i.cs
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\obj\Debug\Page2.g.cs
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\obj\Debug\App.xaml
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\obj\Debug\AddNotif.xaml
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\obj\Debug\AddTeam.xaml
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\obj\Debug\BuildTeam.xaml
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\obj\Debug\MainPage.xaml
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\obj\Debug\MyTeam.xaml
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\obj\Debug\Page2.xaml
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\obj\Debug\App.xbf
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\obj\Debug\AddNotif.xbf
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\obj\Debug\AddTeam.xbf
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\obj\Debug\BuildTeam.xbf
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\obj\Debug\MainPage.xbf
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\obj\Debug\MyTeam.xbf
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\obj\Debug\Page2.xbf
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\obj\Debug\CricketTeamDistributor.exe
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\obj\Debug\CricketTeamDistributor.pdb
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\obj\Debug\priconfig.xml
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\obj\Debug\priconfig.xml.intermediate
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\obj\Debug\layout.resfiles
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\obj\Debug\layout.resfiles.intermediate
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\obj\Debug\resources.resfiles
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\obj\Debug\resources.resfiles.intermediate
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\obj\Debug\pri.resfiles
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\obj\Debug\pri.resfiles.intermediate
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\obj\Debug\qualifiers.txt
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Aditya\Desktop\Projects\TeamBuilder\CricketTeamDistributor\obj\Debug\ProjectArchitectures.txt
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\App.xbf
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\AddNotif.xbf
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\AddTeam.xbf
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\BuildTeam.xbf
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\MainPage.xbf
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\MyTeam.xbf
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\Page2.xbf
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\CricketTeamDistributor.xr.xml
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\CricketTeamDistributor.exe
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\CricketTeamDistributor.pdb
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\resources.pri
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\AppxManifest.xml
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\TeamBuilder.build.appxrecipe
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\App.g.i.cs
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\App.g.cs
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\AddNotif.g.i.cs
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\AddNotif.g.cs
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\AddTeam.g.i.cs
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\AddTeam.g.cs
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\BuildTeam.g.i.cs
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\BuildTeam.g.cs
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\MainPage.g.i.cs
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\MainPage.g.cs
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\MyTeam.g.i.cs
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\MyTeam.g.cs
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\Page2.g.i.cs
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\Page2.g.cs
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\App.xaml
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\AddNotif.xaml
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\AddTeam.xaml
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\BuildTeam.xaml
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\MainPage.xaml
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\MyTeam.xaml
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\Page2.xaml
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\App.xbf
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\AddNotif.xbf
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\AddTeam.xbf
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\BuildTeam.xbf
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\MainPage.xbf
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\MyTeam.xbf
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\Page2.xbf
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\CricketTeamDistributor.exe
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\CricketTeamDistributor.pdb
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\priconfig.xml
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\priconfig.xml.intermediate
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\layout.resfiles
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\layout.resfiles.intermediate
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\resources.resfiles
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\resources.resfiles.intermediate
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\pri.resfiles
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\pri.resfiles.intermediate
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\qualifiers.txt
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\ProjectArchitectures.txt
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\App.xbf
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\AddNotif.xbf
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\AddTeam.xbf
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\BuildTeam.xbf
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\MainPage.xbf
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\MyTeam.xbf
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\Page2.xbf
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\CricketTeamDistributor.xr.xml
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\CricketTeamDistributor.exe
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\CricketTeamDistributor.pdb
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\resources.pri
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\AppxManifest.xml
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\TeamBuilder.build.appxrecipe
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\App.g.i.cs
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\App.g.cs
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\AddNotif.g.i.cs
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\AddNotif.g.cs
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\AddTeam.g.i.cs
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\AddTeam.g.cs
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\BuildTeam.g.i.cs
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\BuildTeam.g.cs
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\MainPage.g.i.cs
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\MainPage.g.cs
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\MyTeam.g.i.cs
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\MyTeam.g.cs
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\Page2.g.i.cs
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\Page2.g.cs
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\XamlTypeInfo.g.cs
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\App.xaml
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\AddNotif.xaml
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\AddTeam.xaml
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\BuildTeam.xaml
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\MainPage.xaml
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\MyTeam.xaml
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\Page2.xaml
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\App.xbf
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\AddNotif.xbf
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\AddTeam.xbf
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\BuildTeam.xbf
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\MainPage.xbf
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\MyTeam.xbf
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\Page2.xbf
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\XamlSaveStateFile.xml
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\CricketTeamDistributor.exe
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\CricketTeamDistributor.pdb
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\priconfig.xml
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\priconfig.xml.intermediate
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\layout.resfiles
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\layout.resfiles.intermediate
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\resources.resfiles
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\resources.resfiles.intermediate
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\pri.resfiles
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\pri.resfiles.intermediate
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\qualifiers.txt
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\qualifiers.txt.intermediate
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\Users\Aditya\Desktop\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\ProjectArchitectures.txt
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\App.xbf
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\AddNotif.xbf
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\AddTeam.xbf
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\BuildTeam.xbf
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\MainPage.xbf
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\MyTeam.xbf
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\Page2.xbf
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\CricketTeamDistributor.xr.xml
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\CricketTeamDistributor.exe
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\CricketTeamDistributor.pdb
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\resources.pri
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\AppxManifest.xml
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\TeamBuilder.build.appxrecipe
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\App.g.i.cs
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\App.g.cs
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\AddNotif.g.i.cs
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\AddNotif.g.cs
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\AddTeam.g.i.cs
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\AddTeam.g.cs
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\BuildTeam.g.i.cs
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\BuildTeam.g.cs
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\MainPage.g.i.cs
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\MainPage.g.cs
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\MyTeam.g.i.cs
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\MyTeam.g.cs
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\Page2.g.i.cs
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\Page2.g.cs
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\App.xaml
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\AddNotif.xaml
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\AddTeam.xaml
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\BuildTeam.xaml
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\MainPage.xaml
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\MyTeam.xaml
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\Page2.xaml
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\App.xbf
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\AddNotif.xbf
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\AddTeam.xbf
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\BuildTeam.xbf
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\MainPage.xbf
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\MyTeam.xbf
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\Page2.xbf
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\XamlSaveStateFile.xml
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\CricketTeamDistributor.exe
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\CricketTeamDistributor.pdb
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\priconfig.xml
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\priconfig.xml.intermediate
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\layout.resfiles
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\layout.resfiles.intermediate
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\resources.resfiles
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\resources.resfiles.intermediate
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\pri.resfiles
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\pri.resfiles.intermediate
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\qualifiers.txt
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\qualifiers.txt.intermediate
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\ProjectArchitectures.txt

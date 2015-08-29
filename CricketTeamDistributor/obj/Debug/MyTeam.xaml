@@ -1,0 +1,78 @@
+﻿<Page
+    x:Class="CricketTeamDistributor.MyTeam"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CricketTeamDistributor"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock             
+            HorizontalAlignment="Left" Height="46" Margin="35,51,0,0" 
+            TextWrapping="Wrap" Text="My Team" VerticalAlignment="Top" Width="115"
+            Style="{ThemeResource SubheaderTextBlockStyle}"
+           />
+        <Button x:ConnectionId='1'
+            x:Name="AddButton"
+            Content="Add" HorizontalAlignment="Left" 
+            Height="55" Margin="276,41,0,0" VerticalAlignment="Top" 
+            Width="64"
+                                   
+            Style="{StaticResource PivotTitleContentControlStyle}"/>
+        <Button x:ConnectionId='2'
+            x:Name="BuildTeamButton"
+            Content="Build Team" HorizontalAlignment="Left" Height="19" 
+            Margin="35,564,0,0" VerticalAlignment="Top" Width="335" 
+                                         />
+        <ListView 
+            x:Name="TeamView"
+            ItemsSource="{Binding}"
+            SelectionMode="Multiple" Margin="35,152,30,71"
+            >
+            <ListView.ItemTemplate>
+                <DataTemplate 
+                    x:Name="TeamViewItemTemplate">
+                    <Grid Height="100" Width="250">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height=".5*"/>
+                            <RowDefinition Height=".5*"/>
+                        </Grid.RowDefinitions>
+                        <TextBlock Text="{Binding Name}" Height="50" 
+                                   FontSize="24"
+                                   />
+                        <TextBlock Text="{Binding FirstAtt}" 
+                                   Grid.Row="1"
+                                   FontFamily="{ThemeResource PhoneFontFamilyLight}"
+                                   FontSize="25" Margin="50,0,0,0"
+                                   HorizontalAlignment="Left"
+                                   />
+                        <TextBlock Text="{Binding SecondAtt}"
+                                   Grid.Row="1" FontSize="25"
+                                   Margin="0,0,50,0"
+                                   FontFamily="{ThemeResource PhoneFontFamilyLight}"
+                                   HorizontalAlignment="Right"
+                                   />
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <TextBlock HorizontalAlignment="Center" 
+                 Margin="216,108,0,0" 
+                 x:Name="SecondAttBox"
+                   FontSize="25"
+                 TextWrapping="Wrap" Text="" 
+                 VerticalAlignment="Top" Width="154"/>
+        <TextBlock HorizontalAlignment="Left" 
+                 x:Name="FirstAttBox" FontSize="25"
+                 Margin="90,108,0,0" TextWrapping="Wrap" 
+                 Text="" VerticalAlignment="Top"  
+                 Width="164"/>
+        <Button x:ConnectionId='3' Content="Delete" HorizontalAlignment="Left" 
+                Margin="171,41,0,0" VerticalAlignment="Top" 
+                Width="93" x:Name="DeleteButton"                           
+                />
+    </Grid>
+</Page>
+

@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ANURADHA-PC</Machine>
+    <WindowsUser>anuradha</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>1f98056e-234e-4c4e-93c7-ecb450ed576f</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\CricketTeamDistributor.exe">
+      <PackagePath>CricketTeamDistributor.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\Assets\1493_1280x800.jpg">
+      <PackagePath>Assets\1493_1280x800.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\Assets\Cricket-Ball-and-Bat-HD-Images.jpg">
+      <PackagePath>Assets\Cricket-Ball-and-Bat-HD-Images.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\Assets\cricket-hd-wallpapers.jpg">
+      <PackagePath>Assets\cricket-hd-wallpapers.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\Assets\cricket_ball_by_hedgehog_the_hermit-d6sqiom.jpg">
+      <PackagePath>Assets\cricket_ball_by_hedgehog_the_hermit-d6sqiom.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\Assets\Cricket_ball_on_grass.jpg">
+      <PackagePath>Assets\Cricket_ball_on_grass.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\Assets\cricket_football.jpg">
+      <PackagePath>Assets\cricket_football.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\Assets\football_pitch-t2.jpg">
+      <PackagePath>Assets\football_pitch-t2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\Assets\Melbourne-Cricket-Ground-wallpaper.jpg">
+      <PackagePath>Assets\Melbourne-Cricket-Ground-wallpaper.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\Assets\Stadium_Fifa.jpg">
+      <PackagePath>Assets\Stadium_Fifa.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\AddNotif.xbf">
+      <PackagePath>AddNotif.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\AddTeam.xbf">
+      <PackagePath>AddTeam.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\BuildTeam.xbf">
+      <PackagePath>BuildTeam.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\MyTeam.xbf">
+      <PackagePath>MyTeam.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\Page2.xbf">
+      <PackagePath>Page2.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\CricketTeamDistributor.xr.xml">
+      <PackagePath>CricketTeamDistributor.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anuradha\Desktop\Win 8 Data\Projects\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
