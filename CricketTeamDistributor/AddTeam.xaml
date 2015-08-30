@@ -30,7 +30,7 @@
             Text="" VerticalAlignment="Top" 
             InputScope="AlphanumericFullWidth"
             Width="296"
-            PlaceholderText="Enter name of player"/>
+            PlaceholderText="Enter name of player" LostFocus="NameTextBox_LostFocus"/>
         <TextBlock
             x:Name="FirstSkillBox"
             HorizontalAlignment="Left" Height="51" 
@@ -51,7 +51,7 @@
             Width="296"
             Text=""
             InputScope="Number"
-            PlaceholderText="Rate out of 5"/>
+            PlaceholderText="Rate out of 5" LostFocus="FirstAttBox_LostFocus"/>
         <TextBox 
             x:Name="SecondAttBox"
             HorizontalAlignment="Left" Height="39" 
@@ -59,7 +59,7 @@
             VerticalAlignment="Top" Width="296"
             InputScope="Number"
             Text=""
-            PlaceholderText="Rate out of 5"
+            PlaceholderText="Rate out of 5" LostFocus="SecondAttBox_LostFocus"
             />
         <Button
             x:Name="AddtoDataButton"

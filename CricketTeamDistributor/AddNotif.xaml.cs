@@ -5,6 +5,8 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.Phone.UI.Input;
+using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -25,7 +27,15 @@ namespace CricketTeamDistributor
         string Game = "";
         public AddNotif()
         {
+            HardwareButtons.BackPressed += OnBackPressed;
             this.InitializeComponent();
+        }
+
+        private async void OnBackPressed(object sender, BackPressedEventArgs e)
+        {
+            e.Handled = true;
+            MessageDialog msgbox = new MessageDialog("Choose one of the options below:");
+            await msgbox.ShowAsync(); 
         }
 
         /// <summary>

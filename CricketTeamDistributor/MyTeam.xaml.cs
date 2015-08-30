@@ -7,6 +7,7 @@ using System.Runtime.InteropServices.WindowsRuntime;
 using System.Threading.Tasks;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -80,21 +81,32 @@ namespace CricketTeamDistributor
             List<Player> OldList = await PlayerFile.ViewMyPlayers(Game);
             ObtainSelectedItems();
             List<Player> ToDelList = SelectedList;
-
-            for (int i = 0; i < ToDelList.Count; i++)
+            
+            if (ToDelList.Count == 0)
             {
-                for (int j = 0; j < OldList.Count; j++)
+                MessageDialog msgbox = new MessageDialog("Select Player to be deleted!");
+                await msgbox.ShowAsync(); 
+                await PlayerFile.AddToFile(OldList,Game);
+                View();
+            }
+            else
+            {
+
+                for (int i = 0; i < ToDelList.Count; i++)
                 {
-                    if (Helper(ToDelList,OldList,i,j))
+                    for (int j = 0; j < OldList.Count; j++)
                     {
-                        OldList.RemoveAt(j);
+                        if (Helper(ToDelList, OldList, i, j))
+                        {
+                            OldList.RemoveAt(j);
+                        }
+
                     }
-
                 }
-             }
 
-            await PlayerFile.AddToFile(OldList,Game);
-            View();
+                await PlayerFile.AddToFile(OldList, Game);
+                View();
+            }
         }
 
         public bool Helper(List<Player> a, List<Player> b,int i, int j)

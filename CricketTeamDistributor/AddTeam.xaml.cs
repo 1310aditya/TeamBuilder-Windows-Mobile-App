@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.Storage;
+using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -99,5 +100,41 @@ namespace CricketTeamDistributor
             } 
            await PlayerFile.AddToFile(newTeam, "Football");    
         }
+
+       private async void FirstAttBox_LostFocus(object sender, RoutedEventArgs e)
+       {
+           if (int.Parse(FirstAttBox.Text) > 5)
+           {
+               FirstAttBox.Text = "";   
+           }
+           MessageDialog msgbox = new MessageDialog("Rate out of 5!");
+           await msgbox.ShowAsync();
+           
+       }
+
+       private async void SecondAttBox_LostFocus(object sender, RoutedEventArgs e)
+       {
+           if (int.Parse(SecondAttBox.Text) > 5)
+           {
+               SecondAttBox.Text = "";
+           }
+           MessageDialog msgbox = new MessageDialog("Rate out of 5!");
+           await msgbox.ShowAsync();
+       }
+
+       private async void NameTextBox_LostFocus(object sender, RoutedEventArgs e)
+       {
+           List<Player> PlayerList = await PlayerFile.ViewMyPlayers(Game);
+           foreach (var player in PlayerList)
+           {
+               if (player.Name.ToLower() == NameTextBox.Text.ToLower())
+               {
+                   MessageDialog msgbox = new MessageDialog("Player Already Exists!");
+                   await msgbox.ShowAsync();
+                   NameTextBox.Text = "";
+                   break;
+               }
+           }
+       }
     }
 }

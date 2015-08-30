@@ -10,28 +10,20 @@
 
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="Assets/cricket_football.jpg"/>
+            <ImageBrush ImageSource="Assets/cricket_football.jpg" Opacity="0.6"/>
         </Grid.Background>
-        <TextBlock 
-            HorizontalAlignment="Left" Height="66" Margin="66,141,0,0" 
+        <TextBlock Height="66" Margin="81,141,0,0" 
             TextWrapping="Wrap" Text="Team Builder" 
             VerticalAlignment="Top"
-            Width="282"
-            Style="{ThemeResource HeaderTextBlockStyle}" RequestedTheme="Dark" FontFamily="Buxton Sketch"/>
+            Width="242"
+            Style="{ThemeResource HeaderTextBlockStyle}" RequestedTheme="Dark" FontFamily="Trajan Pro" FontSize="36" HorizontalAlignment="Left"/>
         <Button 
             x:Name="CricketButton"
             Content="Cricket" HorizontalAlignment="Left" 
             Height="79" Margin="81,277,0,0" VerticalAlignment="Top" 
             Width="242" 
             Click="CricketButton_Click"
-            Style="{ThemeResource PivotTitleContentControlStyle}" FontFamily="SketchFlow Print" FontSize="25" RequestedTheme="Light" Opacity="0.7">
-            <Button.Background>
-                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="Black" Offset="0"/>
-                    <GradientStop Color="#FFF0F9FF" Offset="0.8"/>
-                </LinearGradientBrush>
-            </Button.Background>
-        </Button>
+            Style="{ThemeResource PivotTitleContentControlStyle}" FontFamily="SketchFlow Print" FontSize="25" RequestedTheme="Light" Opacity="0.9" Background="#FFC7C7C7"/>
 
         <Button 
             x:Name="Football"
@@ -39,13 +31,6 @@
             Margin="81,422,0,0" 
             VerticalAlignment="Top" Width="242"
             Click="Football_Click"
-            Style="{ThemeResource PivotTitleContentControlStyle}" FontFamily="SketchFlow Print" FontSize="25" RequestedTheme="Light" Opacity="0.7">
-            <Button.Background>
-                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="Black" Offset="0"/>
-                    <GradientStop Color="#FFF0F9FF" Offset="0.8"/>
-                </LinearGradientBrush>
-            </Button.Background>
-        </Button>
+            Style="{ThemeResource PivotTitleContentControlStyle}" FontFamily="SketchFlow Print" FontSize="25" RequestedTheme="Light" Opacity="0.9" Background="#FFC7C7C7"/>
     </Grid>
 </Page>
