@@ -45,8 +45,8 @@ namespace CricketTeamDistributor
 
         private void RebuildButton_Click(object sender, RoutedEventArgs e)
         {
-            TeamOne.Clear();
-            TeamTwo.Clear();
+            TeamOne = new List<Player>();
+            TeamTwo = new List<Player>();
             BuildMethod();
         }
 

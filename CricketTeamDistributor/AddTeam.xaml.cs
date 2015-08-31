@@ -105,11 +105,11 @@ namespace CricketTeamDistributor
        {
            if (int.Parse(FirstAttBox.Text) > 5)
            {
-               FirstAttBox.Text = "";   
-           }
-           MessageDialog msgbox = new MessageDialog("Rate out of 5!");
-           await msgbox.ShowAsync();
+               FirstAttBox.Text = "";
+               MessageDialog msgbox = new MessageDialog("Rate out of 5!");
+               await msgbox.ShowAsync();
            
+           }
        }
 
        private async void SecondAttBox_LostFocus(object sender, RoutedEventArgs e)
@@ -117,23 +117,31 @@ namespace CricketTeamDistributor
            if (int.Parse(SecondAttBox.Text) > 5)
            {
                SecondAttBox.Text = "";
+               MessageDialog msgbox = new MessageDialog("Rate out of 5!");
+               await msgbox.ShowAsync();
            }
-           MessageDialog msgbox = new MessageDialog("Rate out of 5!");
-           await msgbox.ShowAsync();
+           
        }
 
        private async void NameTextBox_LostFocus(object sender, RoutedEventArgs e)
        {
-           List<Player> PlayerList = await PlayerFile.ViewMyPlayers(Game);
-           foreach (var player in PlayerList)
+           try
            {
-               if (player.Name.ToLower() == NameTextBox.Text.ToLower())
+               List<Player> PlayerList = await PlayerFile.ViewMyPlayers(Game);
+               foreach (var player in PlayerList)
                {
-                   MessageDialog msgbox = new MessageDialog("Player Already Exists!");
-                   await msgbox.ShowAsync();
-                   NameTextBox.Text = "";
-                   break;
+                   if (player.Name.ToLower() == NameTextBox.Text.ToLower())
+                   {
+                       MessageDialog msgbox = new MessageDialog("Player Already Exists!");
+                       await msgbox.ShowAsync();
+                       NameTextBox.Text = "";
+                       break;
+                   }
                }
+           }
+
+           catch (FileNotFoundException)
+           {
            }
        }
     }
