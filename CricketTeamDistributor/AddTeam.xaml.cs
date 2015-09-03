@@ -41,7 +41,7 @@ namespace CricketTeamDistributor
         /// This parameter is typically used to configure the page.</param>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            string Game = e.Parameter.ToString();
+            Game = e.Parameter.ToString();
 
             if (Game == "Cricket")
             {
@@ -100,49 +100,58 @@ namespace CricketTeamDistributor
             } 
            await PlayerFile.AddToFile(newTeam, "Football");    
         }
-
-       private async void FirstAttBox_LostFocus(object sender, RoutedEventArgs e)
+        
+        
+        //Solve decimal entries into attributes box!
+       
+        private async void FirstAttBox_LostFocus(object sender, RoutedEventArgs e)
        {
-           if (int.Parse(FirstAttBox.Text) > 5)
-           {
-               FirstAttBox.Text = "";
-               MessageDialog msgbox = new MessageDialog("Rate out of 5!");
-               await msgbox.ShowAsync();
+           try { 
+                   if (int.Parse(FirstAttBox.Text) > 5)
+                   {
+                       FirstAttBox.Text = "";
+                       MessageDialog msgbox = new MessageDialog("Rate out of 5!");
+                       await msgbox.ShowAsync();
            
-           }
+                   }
+               }
+           catch { }
        }
 
        private async void SecondAttBox_LostFocus(object sender, RoutedEventArgs e)
        {
-           if (int.Parse(SecondAttBox.Text) > 5)
+           try
            {
-               SecondAttBox.Text = "";
-               MessageDialog msgbox = new MessageDialog("Rate out of 5!");
-               await msgbox.ShowAsync();
+               if (int.Parse(SecondAttBox.Text) > 5)
+               {
+                   SecondAttBox.Text = "";
+                   MessageDialog msgbox = new MessageDialog("Rate out of 5!");
+                   await msgbox.ShowAsync();
+               }
            }
+           catch { }
            
        }
 
        private async void NameTextBox_LostFocus(object sender, RoutedEventArgs e)
        {
-           try
+
+           List<Player> PlayerList = await PlayerFile.ViewMyPlayers(Game);
+           foreach (var player in PlayerList)
            {
-               List<Player> PlayerList = await PlayerFile.ViewMyPlayers(Game);
-               foreach (var player in PlayerList)
+               if (player.Name.ToLower() == NameTextBox.Text.ToLower())
                {
-                   if (player.Name.ToLower() == NameTextBox.Text.ToLower())
-                   {
-                       MessageDialog msgbox = new MessageDialog("Player Already Exists!");
-                       await msgbox.ShowAsync();
-                       NameTextBox.Text = "";
-                       break;
-                   }
+                   MessageDialog msgbox = new MessageDialog("Player Already Exists!");
+                   await msgbox.ShowAsync();
+                   NameTextBox.Text = "";
+                   break;
                }
            }
 
-           catch (FileNotFoundException)
-           {
-           }
+           
+           //catch (FileNotFoundException)
+           //{
+           //}
        }
     }
 }

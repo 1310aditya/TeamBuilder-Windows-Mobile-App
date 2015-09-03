@@ -27,16 +27,16 @@ namespace CricketTeamDistributor
         string Game = "";
         public AddNotif()
         {
-            HardwareButtons.BackPressed += OnBackPressed;
+            //HardwareButtons.BackPressed += OnBackPressed;
             this.InitializeComponent();
         }
 
-        private async void OnBackPressed(object sender, BackPressedEventArgs e)
+        /*private async void OnBackPressed(object sender, BackPressedEventArgs e)
         {
             e.Handled = true;
             MessageDialog msgbox = new MessageDialog("Choose one of the options below:");
             await msgbox.ShowAsync(); 
-        }
+        }*/
 
         /// <summary>
         /// Invoked when this page is about to be displayed in a Frame.

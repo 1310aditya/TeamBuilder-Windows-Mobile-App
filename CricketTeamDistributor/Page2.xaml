@@ -9,36 +9,52 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBlock 
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.25*"/>
+            <RowDefinition Height="0.25*"/>
+            <RowDefinition Height="0.25*"/>
+            <RowDefinition Height="0.25*"/>
+        </Grid.RowDefinitions>
+                <TextBlock 
             x:Name="GameTextBlock"
-            HorizontalAlignment="Left" 
-            Height="75" Margin="82,78,0,0" TextWrapping="Wrap" 
-            Text="TextBlock" VerticalAlignment="Top" 
+            HorizontalAlignment="Center" 
+            TextWrapping="Wrap" 
+            Text="TextBlock" VerticalAlignment="Center" 
             Width="239"
             Style="{ThemeResource HeaderTextBlockStyle}"/>
         <Button 
-            x:Name="AddButton"
-            Content="Add Team Members" HorizontalAlignment="Left" 
-            Height="78" Margin="68,345,0,0" VerticalAlignment="Top" 
-            Width="290"
+            x:Name="AddButton" Grid.Row="1" Margin="0,0,0,0"
             Click="AddButton_Click"
-            />
-        
-        <Button
-            x:Name="BuildButton"
-            Content="Build Teams" HorizontalAlignment="Left" 
-            Height="78" Margin="68,469,0,0" VerticalAlignment="Top" 
-            Width="290"
-            Click="BuildButton_Click"
-            />
-        
-        <Button
-            x:Name="ViewButton"
-            Content="My Team" HorizontalAlignment="Left" 
-            Height="75" Margin="68,225,0,0" VerticalAlignment="Top" 
-            Width="290"
-            Click="ViewButton_Click"
-            />
+            >
+            <Grid>
+                <Image Source="Assets\062814-World-Cup-Colombia-James-Rodriguez-PI-CH.vadapt.620.high.0.jpg" 
+                       Opacity="0.8"  Stretch="None" Margin="0,0,0,0"/>
+                <TextBlock Text="Add Team Members" HorizontalAlignment="Right"  VerticalAlignment="Bottom"  Foreground="White" 
+                           FontSize="36"/>
+            </Grid>
+        </Button>
 
+        <Button
+            x:Name="BuildButton" Grid.Row="2" Margin="0,0,0,0"
+            Click="BuildButton_Click"
+            >
+            <Grid>
+                <Image Source="Assets\1407940249936_wps_1_Real_Madrid_team_players_.jpg"
+                       Opacity="0.8" Stretch="UniformToFill" Margin="0,0,0,0"/>
+                <TextBlock Text="Build Team" HorizontalAlignment="Right"  VerticalAlignment="Bottom"  Foreground="White" 
+                                   FontSize="36"/>
+            </Grid>
+        </Button>
+        
+        <Button
+            x:Name="ViewButton" Grid.Row="3"
+            Click="ViewButton_Click"
+            >
+            <Grid>
+                <Image Source="Assets\FCREALMADRIDFULLTEAM.jpg" Stretch="Fill" Opacity="0.9"/>
+                <TextBlock Text="MyTeam" HorizontalAlignment="Right"  VerticalAlignment="Bottom"  Foreground="White" 
+                                   FontSize="36"/>
+            </Grid>
+        </Button>
     </Grid>
 </Page>

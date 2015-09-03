@@ -67,7 +67,6 @@ namespace CricketTeamDistributor
             //Correct this. Take selected items from where Build Button is entered.
 
             List<Player> BuildList = await PlayerFile.ViewMyPlayers(Game);
-            //
 
             if (CheckEven(BuildList.Count))
             {

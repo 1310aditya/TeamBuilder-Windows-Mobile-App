@@ -112,15 +112,19 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\062814-World-Cup-Colombia-James-Rodriguez-PI-CH.vadapt.620.high.0.jpg" />
+    <Content Include="Assets\1407940249936_wps_1_Real_Madrid_team_players_.jpg" />
     <Content Include="Assets\1493_1280x800.jpg" />
     <Content Include="Assets\Cricket-Ball-and-Bat-HD-Images.jpg" />
     <Content Include="Assets\cricket-hd-wallpapers.jpg" />
     <Content Include="Assets\cricket_ball_by_hedgehog_the_hermit-d6sqiom.jpg" />
     <Content Include="Assets\Cricket_ball_on_grass.jpg" />
     <Content Include="Assets\cricket_football.jpg" />
+    <Content Include="Assets\FCREALMADRIDFULLTEAM.jpg" />
     <Content Include="Assets\football_pitch-t2.jpg" />
     <Content Include="Assets\Logo.scale-240.png" />
     <Content Include="Assets\Melbourne-Cricket-Ground-wallpaper.jpg" />
+    <Content Include="Assets\real-madrid-granada.jpg" />
     <Content Include="Assets\SmallLogo.scale-240.png" />
     <Content Include="Assets\SplashScreen.scale-240.png" />
     <Content Include="Assets\Square71x71Logo.scale-240.png" />
