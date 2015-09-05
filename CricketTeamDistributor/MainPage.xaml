@@ -17,10 +17,9 @@
         <Button 
             x:Name="CricketButton"
             HorizontalAlignment="Stretch" 
-            Margin="0,0,0,0" VerticalAlignment="Stretch"  
+            Margin="-5" VerticalAlignment="Stretch"  
             Click="CricketButton_Click"
-            FontFamily="SketchFlow Print" 
-            FontSize="25" RequestedTheme="Light" Opacity="0.9">
+            FontSize="25" RequestedTheme="Light" Opacity="0.9" BorderThickness="0">
             <Grid>
                 <Image Source="Assets\cricket-hd-wallpapers.jpg" Stretch="Fill" Opacity="0.7"/>
                 <TextBlock Text="Cricket" HorizontalAlignment="Right"  VerticalAlignment="Bottom"  Foreground="White" 
@@ -31,11 +30,11 @@
         <Button 
             x:Name="Football" Grid.Row="1"
             HorizontalAlignment="Stretch" 
-            Margin="0,0,0,0"
+            Margin="-5"
             VerticalAlignment="Stretch"
             Click="Football_Click"
-            FontFamily="SketchFlow Print" FontSize="25" 
-            RequestedTheme="Light" Opacity="0.9" Background="#FFC7C7C7">
+            FontSize="25" 
+            RequestedTheme="Light" Opacity="0.9" Background="#FFC7C7C7" BorderThickness="0">
             <Grid>
                 <Image Source="Assets\real-madrid-granada.jpg" Opacity="0.9" Stretch="Fill"/>
                 <TextBlock Text="Football" HorizontalAlignment="Right"  

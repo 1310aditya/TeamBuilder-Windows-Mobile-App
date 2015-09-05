@@ -6,47 +6,46 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="{ThemeResource AppBarBackgroundThemeBrush}">
+    >
 
     <Grid>
-        <Grid.Background>
-            <ImageBrush ImageSource="Assets/cricket_football.jpg"/>
-        </Grid.Background>
-        <TextBlock 
-            HorizontalAlignment="Left" Height="66" Margin="66,141,0,0" 
-            TextWrapping="Wrap" Text="Team Builder" 
-            VerticalAlignment="Top"
-            Width="282"
-            Style="{ThemeResource HeaderTextBlockStyle}" RequestedTheme="Dark" FontFamily="Buxton Sketch"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height=".5*"/>
+            <RowDefinition Height=".5*"/>
+        </Grid.RowDefinitions>
+
         <Button x:ConnectionId='1' 
             x:Name="CricketButton"
-            Content="Cricket" HorizontalAlignment="Left" 
-            Height="79" Margin="81,277,0,0" VerticalAlignment="Top" 
-            Width="242" 
+            HorizontalAlignment="Stretch" 
+            Margin="0,0,0,0" VerticalAlignment="Stretch"  
                                        
-            Style="{ThemeResource PivotTitleContentControlStyle}" FontFamily="SketchFlow Print" FontSize="25" RequestedTheme="Light" Opacity="0.7">
-            <Button.Background>
-                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="Black" Offset="0"/>
-                    <GradientStop Color="#FFF0F9FF" Offset="0.8"/>
-                </LinearGradientBrush>
-            </Button.Background>
+            FontFamily="SketchFlow Print" 
+            FontSize="25" RequestedTheme="Light" Opacity="0.9">
+            <Grid>
+                <Image Source="Assets\cricket-hd-wallpapers.jpg" Stretch="Fill" Opacity="0.7"/>
+                <TextBlock Text="Cricket" HorizontalAlignment="Right"  VerticalAlignment="Bottom"  Foreground="White" 
+                           FontSize="72"/>
+            </Grid>
         </Button>
 
         <Button x:ConnectionId='2' 
-            x:Name="Football"
-            Content="Football" HorizontalAlignment="Left" Height="85" 
-            Margin="81,422,0,0" 
-            VerticalAlignment="Top" Width="242"
+            x:Name="Football" Grid.Row="1"
+            HorizontalAlignment="Stretch" 
+            Margin="0,0,0,0"
+            VerticalAlignment="Stretch"
                                   
-            Style="{ThemeResource PivotTitleContentControlStyle}" FontFamily="SketchFlow Print" FontSize="25" RequestedTheme="Light" Opacity="0.7">
-            <Button.Background>
-                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="Black" Offset="0"/>
-                    <GradientStop Color="#FFF0F9FF" Offset="0.8"/>
-                </LinearGradientBrush>
-            </Button.Background>
+            FontFamily="SketchFlow Print" FontSize="25" 
+            RequestedTheme="Light" Opacity="0.9" Background="#FFC7C7C7">
+            <Grid>
+                <Image Source="Assets\real-madrid-granada.jpg" Opacity="0.9" Stretch="Fill"/>
+                <TextBlock Text="Football" HorizontalAlignment="Right"  
+                           VerticalAlignment="Bottom" Foreground="White" 
+                           FontSize="72"/>
+            </Grid>
         </Button>
+
+
     </Grid>
+
 </Page>
 

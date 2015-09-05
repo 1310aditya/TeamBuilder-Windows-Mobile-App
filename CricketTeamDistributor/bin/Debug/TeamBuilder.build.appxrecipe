@@ -19,6 +19,12 @@
     <AppxPackagedFile Include="C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\CricketTeamDistributor.exe">
       <PackagePath>CricketTeamDistributor.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\Assets\062814-World-Cup-Colombia-James-Rodriguez-PI-CH.vadapt.620.high.0.jpg">
+      <PackagePath>Assets\062814-World-Cup-Colombia-James-Rodriguez-PI-CH.vadapt.620.high.0.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\Assets\1407940249936_wps_1_Real_Madrid_team_players_.jpg">
+      <PackagePath>Assets\1407940249936_wps_1_Real_Madrid_team_players_.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\Assets\1493_1280x800.jpg">
       <PackagePath>Assets\1493_1280x800.jpg</PackagePath>
     </AppxPackagedFile>
@@ -37,11 +43,20 @@
     <AppxPackagedFile Include="C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\Assets\cricket_football.jpg">
       <PackagePath>Assets\cricket_football.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\Assets\FCREALMADRIDFULLTEAM.jpg">
+      <PackagePath>Assets\FCREALMADRIDFULLTEAM.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\Assets\football_pitch-t2.jpg">
       <PackagePath>Assets\football_pitch-t2.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\Assets\full-view-and-download-real-madrid-team-wallpaper-sport-images-real-madrid-squad-hd-wallpapers-team-633558272.jpg">
+      <PackagePath>Assets\full-view-and-download-real-madrid-team-wallpaper-sport-images-real-madrid-squad-hd-wallpapers-team-633558272.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\Assets\Melbourne-Cricket-Ground-wallpaper.jpg">
       <PackagePath>Assets\Melbourne-Cricket-Ground-wallpaper.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\Assets\real-madrid-granada.jpg">
+      <PackagePath>Assets\real-madrid-granada.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\Assets\Stadium_Fifa.jpg">
       <PackagePath>Assets\Stadium_Fifa.jpg</PackagePath>

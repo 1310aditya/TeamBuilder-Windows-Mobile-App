@@ -14,10 +14,9 @@
     <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="Children" />
-      <RootProperty Name="Background" />
+      <RootProperty Name="RowDefinitions" />
       <RootProperty Name="Height" />
       <RootProperty Name="Width" />
-      <RootProperty Name="RowDefinitions" />
       <RootMethod Name="GetRow" />
       <RootMethod Name="SetRow" />
     </RootType>
@@ -32,7 +31,7 @@
       <RootProperty Name="Style" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="TextAlignment" />
-      <RootProperty Name="RequestedTheme" />
+      <RootProperty Name="Foreground" />
       <RootProperty Name="FontFamily" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
@@ -61,6 +60,7 @@
       <RootProperty Name="InputScope" />
       <RootProperty Name="Width" />
       <RootProperty Name="PlaceholderText" />
+      <RootEvent Name="LostFocus" />
     </RootType>
     <RootType FullName="CricketTeamDistributor.AddTeam" />
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
@@ -79,22 +79,16 @@
       <RootProperty Name="Children" />
     </RootType>
     <RootType FullName="CricketTeamDistributor.BuildTeam" />
-    <RootType FullName="Windows.UI.Xaml.Media.ImageBrush">
-      <RootProperty Name="ImageSource" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Media.LinearGradientBrush">
-      <RootProperty Name="EndPoint" />
-      <RootProperty Name="StartPoint" />
-      <RootProperty Name="GradientStops" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Media.GradientStop">
-      <RootProperty Name="Color" />
-      <RootProperty Name="Offset" />
-    </RootType>
-    <RootType FullName="CricketTeamDistributor.MainPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
       <RootProperty Name="Height" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Image">
+      <RootProperty Name="Source" />
+      <RootProperty Name="Opacity" />
+      <RootProperty Name="Stretch" />
+      <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="CricketTeamDistributor.MainPage" />
     <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.StaticResourceExtension" />
     <RootType FullName="CricketTeamDistributor.MyTeam" />
     <RootType FullName="CricketTeamDistributor.Page2" />
