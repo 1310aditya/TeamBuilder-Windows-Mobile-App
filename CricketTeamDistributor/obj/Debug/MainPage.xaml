@@ -15,37 +15,32 @@
         </Grid.RowDefinitions>
 
         <Button x:ConnectionId='1' 
-            x:Name="CricketButton"
+            x:Name="CricketButton" Grid.Row="0"
+            Height="auto" Width="auto" 
             HorizontalAlignment="Stretch" 
-            Margin="0,0,0,0" VerticalAlignment="Stretch"  
+            Margin="-5" VerticalAlignment="Stretch"  
                                        
-            FontFamily="SketchFlow Print" 
-            FontSize="25" RequestedTheme="Light" Opacity="0.9">
+            FontSize="25" RequestedTheme="Light" Opacity="0.9" BorderThickness="0">
             <Grid>
-                <Image Source="Assets\cricket-hd-wallpapers.jpg" Stretch="Fill" Opacity="0.7"/>
-                <TextBlock Text="Cricket" HorizontalAlignment="Right"  VerticalAlignment="Bottom"  Foreground="White" 
-                           FontSize="72"/>
+            <Image Source="{Binding src}" Stretch="Fill" Opacity="0.7" MaxWidth="500"/>
+            <TextBlock Text="{Binding title}" HorizontalAlignment="Right"  VerticalAlignment="Bottom"  Foreground="White" FontSize="72"/>
             </Grid>
         </Button>
 
         <Button x:ConnectionId='2' 
             x:Name="Football" Grid.Row="1"
             HorizontalAlignment="Stretch" 
-            Margin="0,0,0,0"
+            Height="auto" Width="auto"
+            Margin="-5"
             VerticalAlignment="Stretch"
                                   
-            FontFamily="SketchFlow Print" FontSize="25" 
-            RequestedTheme="Light" Opacity="0.9" Background="#FFC7C7C7">
+            FontSize="25" 
+            RequestedTheme="Light" Opacity="0.9" Background="#FFC7C7C7" BorderThickness="0">
             <Grid>
-                <Image Source="Assets\real-madrid-granada.jpg" Opacity="0.9" Stretch="Fill"/>
-                <TextBlock Text="Football" HorizontalAlignment="Right"  
-                           VerticalAlignment="Bottom" Foreground="White" 
-                           FontSize="72"/>
+            <Image Source="{Binding src}" Opacity="0.9" Stretch="Fill"/>
+            <TextBlock Text="{Binding title}" HorizontalAlignment="Right"  VerticalAlignment="Bottom"  Foreground="White" FontSize="72"/>
             </Grid>
         </Button>
-
-
     </Grid>
-
 </Page>
 

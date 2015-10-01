@@ -91,6 +91,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="datamodel.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="BuildTeam.xaml.cs">
       <DependentUpon>BuildTeam.xaml</DependentUpon>
@@ -112,7 +113,9 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\062814-World-Cup-Colombia-James-Rodriguez-PI-CH.vadapt.620.high.0.jpg" />
+    <Content Include="Assets\062814-World-Cup-Colombia-James-Rodriguez-PI-CH.vadapt.620.high.0.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Assets\1407940249936_wps_1_Real_Madrid_team_players_.jpg" />
     <Content Include="Assets\1493_1280x800.jpg" />
     <Content Include="Assets\Cricket-Ball-and-Bat-HD-Images.jpg" />

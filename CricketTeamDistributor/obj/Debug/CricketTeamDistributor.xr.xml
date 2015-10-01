@@ -2,6 +2,8 @@
 <Roots >
   <Roots.PropertyPathNames>
     <RootPropertyPathName Name="Name" />
+    <RootPropertyPathName Name="title" />
+    <RootPropertyPathName Name="src" />
     <RootPropertyPathName Name="SecondAtt" />
     <RootPropertyPathName Name="FirstAtt" />
   </Roots.PropertyPathNames>
@@ -42,18 +44,20 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
       <RootProperty Name="Style" />
-      <RootProperty Name="FontFamily" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="RequestedTheme" />
       <RootProperty Name="Opacity" />
+      <RootProperty Name="BorderThickness" />
       <RootProperty Name="Background" />
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="CricketTeamDistributor.AddNotif" />
+    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
+      <RootProperty Name="Height" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Height" />
-      <RootProperty Name="Margin" />
       <RootProperty Name="TextWrapping" />
       <RootProperty Name="Text" />
       <RootProperty Name="VerticalAlignment" />
@@ -79,13 +83,11 @@
       <RootProperty Name="Children" />
     </RootType>
     <RootType FullName="CricketTeamDistributor.BuildTeam" />
-    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
-      <RootProperty Name="Height" />
-    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
       <RootProperty Name="Source" />
       <RootProperty Name="Opacity" />
       <RootProperty Name="Stretch" />
+      <RootProperty Name="MaxWidth" />
       <RootProperty Name="Margin" />
     </RootType>
     <RootType FullName="CricketTeamDistributor.MainPage" />
