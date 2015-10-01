@@ -35,6 +35,46 @@ namespace CricketTeamDistributor
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
             GameTextBlock.Text = e.Parameter.ToString();
+
+            if (GameTextBlock.Text == "Cricket")
+            {
+                datamodel temp = new datamodel();
+
+                temp.src = "Assets/addcricketplayer.jpg";
+                temp.title = "Add Player";
+                AddButton.DataContext = temp;
+
+                temp = new datamodel();
+                temp.src = "Assets/buildcricketteam.jpg";
+                temp.title = "Build Team";
+                BuildButton.DataContext = temp;
+
+                temp = new datamodel();
+                temp.src = "Assets/Indian_cricket_team_with_cup.jpg";
+                temp.title = "My Team";
+                ViewButton.DataContext = temp;
+            }
+
+            else
+            {
+
+                datamodel temp = new datamodel();
+
+                temp.src = "Assets/062814-World-Cup-Colombia-James-Rodriguez-PI-CH.vadapt.620.high.0.jpg";
+                temp.title = "Add Team";
+                AddButton.DataContext = temp;
+
+                temp = new datamodel();
+                temp.src = "Assets/1407940249936_wps_1_Real_Madrid_team_players_.jpg";
+                temp.title = "Build Team";
+                BuildButton.DataContext = temp;
+
+                temp = new datamodel();
+                temp.src = "Assets/full-view-and-download-real-madrid-team-wallpaper-sport-images-real-madrid-squad-hd-wallpapers-team-633558272.jpg";
+                temp.title = "My Team";
+                ViewButton.DataContext = temp;
+            }
+            
         }
 
         private void BuildButton_Click(object sender, RoutedEventArgs e)

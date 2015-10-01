@@ -6,7 +6,8 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    >
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    
 
     <Grid>
         <Grid.RowDefinitions>
@@ -18,7 +19,7 @@
             x:Name="CricketButton" Grid.Row="0"
             Height="auto" Width="auto" 
             HorizontalAlignment="Stretch" 
-            Margin="-5" VerticalAlignment="Stretch"  
+            Margin="-10" VerticalAlignment="Stretch"  
                                        
             FontSize="25" RequestedTheme="Light" Opacity="0.9" BorderThickness="0">
             <Grid>
@@ -31,7 +32,7 @@
             x:Name="Football" Grid.Row="1"
             HorizontalAlignment="Stretch" 
             Height="auto" Width="auto"
-            Margin="-5"
+            Margin="-10"
             VerticalAlignment="Stretch"
                                   
             FontSize="25" 

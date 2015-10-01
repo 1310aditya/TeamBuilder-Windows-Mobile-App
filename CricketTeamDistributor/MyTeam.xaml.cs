@@ -34,7 +34,7 @@ namespace CricketTeamDistributor
             Loaded += MyTeam_Loaded;
         }
 
-        async void MyTeam_Loaded(object sender, RoutedEventArgs e)
+        void MyTeam_Loaded(object sender, RoutedEventArgs e)
         {
             View();
          }

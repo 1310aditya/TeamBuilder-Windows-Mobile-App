@@ -21,8 +21,8 @@ namespace CricketTeamDistributor.Assets
 
     public class PlayerFile 
     {
-        private const string CricketTeamFile = "CricketFile";
-        private const string FootballTeamFile= "FootballFile";
+        public const string CricketTeamFile = "CricketFile";
+        public const string FootballTeamFile= "FootballFile";
         
         public static async Task<List<Player>> ViewMyPlayers(string type)
         {

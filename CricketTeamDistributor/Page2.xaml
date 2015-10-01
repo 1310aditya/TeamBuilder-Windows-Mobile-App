@@ -24,31 +24,34 @@
             Width="239"
             Style="{ThemeResource HeaderTextBlockStyle}"/>
         <Button 
-            x:Name="AddButton" Grid.Row="1" Margin="0,-5"
+            x:Name="AddButton" Grid.Row="1" Margin="0,-8"
             Click="AddButton_Click" BorderThickness="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
             >
             <Grid>
-                <Image Source="Assets\062814-World-Cup-Colombia-James-Rodriguez-PI-CH.vadapt.620.high.0.jpg" 
+                <Image Source="{Binding src}" 
                        Opacity="0.8"  Stretch="None" Margin="0,0,0,0"/>
+                <TextBlock Text="{Binding title}" HorizontalAlignment="Right"  VerticalAlignment="Bottom"  Foreground="White" FontSize="48"/>
             </Grid>
         </Button>
 
         <Button
-            x:Name="BuildButton" Grid.Row="2" Margin="0,-5"
+            x:Name="BuildButton" Grid.Row="2" Margin="0,-8"
             Click="BuildButton_Click" BorderThickness="0"
             >
             <Grid>
-                <Image Source="Assets\1407940249936_wps_1_Real_Madrid_team_players_.jpg"
+                <Image Source="{Binding src}"
                        Opacity="0.8" Stretch="UniformToFill" Margin="0,0,0,0"/>
+                <TextBlock Text="{Binding title}" HorizontalAlignment="Right"  VerticalAlignment="Bottom"  Foreground="White" FontSize="48"/>
             </Grid>
         </Button>
         
         <Button
             x:Name="ViewButton" Grid.Row="3"
-            Click="ViewButton_Click" BorderThickness="0" Margin="0,-5"
+            Click="ViewButton_Click" BorderThickness="0" Margin="0,-8"
             >
             <Grid>
-                <Image Source="Assets\full-view-and-download-real-madrid-team-wallpaper-sport-images-real-madrid-squad-hd-wallpapers-team-633558272.jpg" Opacity="0.7" Stretch="UniformToFill" Margin="0,0,0,0"/>
+                <Image Source="{Binding src}" Opacity="0.7" Stretch="UniformToFill" Margin="0,0,0,0"/>
+                <TextBlock Text="{Binding title}" HorizontalAlignment="Right"  VerticalAlignment="Bottom"  Foreground="White" FontSize="48"/>
             </Grid>
         </Button>
         

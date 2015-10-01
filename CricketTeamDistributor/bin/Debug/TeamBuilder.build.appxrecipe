@@ -28,6 +28,12 @@
     <AppxPackagedFile Include="C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\Assets\1493_1280x800.jpg">
       <PackagePath>Assets\1493_1280x800.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\Assets\addcricketplayer.jpg">
+      <PackagePath>Assets\addcricketplayer.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\Assets\buildcricketteam.jpg">
+      <PackagePath>Assets\buildcricketteam.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\Assets\Cricket-Ball-and-Bat-HD-Images.jpg">
       <PackagePath>Assets\Cricket-Ball-and-Bat-HD-Images.jpg</PackagePath>
     </AppxPackagedFile>
@@ -51,6 +57,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\Assets\full-view-and-download-real-madrid-team-wallpaper-sport-images-real-madrid-squad-hd-wallpapers-team-633558272.jpg">
       <PackagePath>Assets\full-view-and-download-real-madrid-team-wallpaper-sport-images-real-madrid-squad-hd-wallpapers-team-633558272.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\Assets\Indian_cricket_team_with_cup.jpg">
+      <PackagePath>Assets\Indian_cricket_team_with_cup.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\Assets\Melbourne-Cricket-Ground-wallpaper.jpg">
       <PackagePath>Assets\Melbourne-Cricket-Ground-wallpaper.jpg</PackagePath>

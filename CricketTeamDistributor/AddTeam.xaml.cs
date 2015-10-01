@@ -135,23 +135,24 @@ namespace CricketTeamDistributor
 
        private async void NameTextBox_LostFocus(object sender, RoutedEventArgs e)
        {
-
-           List<Player> PlayerList = await PlayerFile.ViewMyPlayers(Game);
-           foreach (var player in PlayerList)
+           try
            {
-               if (player.Name.ToLower() == NameTextBox.Text.ToLower())
+               List<Player> PlayerList = await PlayerFile.ViewMyPlayers(Game);
+               foreach (var player in PlayerList)
                {
-                   MessageDialog msgbox = new MessageDialog("Player Already Exists!");
-                   await msgbox.ShowAsync();
-                   NameTextBox.Text = "";
-                   break;
+                   if (player.Name.ToLower() == NameTextBox.Text.ToLower())
+                   {
+                       MessageDialog msgbox = new MessageDialog("Player Already Exists!");
+                       await msgbox.ShowAsync();
+                       NameTextBox.Text = "";
+                       break;
+                   }
                }
            }
 
-           
-           //catch (FileNotFoundException)
-           //{
-           //}
+           catch (FileNotFoundException)
+           {
+           }
        }
     }
 }
