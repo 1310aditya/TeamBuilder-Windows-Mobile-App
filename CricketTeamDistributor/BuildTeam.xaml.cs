@@ -7,6 +7,7 @@ using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.Phone.UI.Input;
+using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -47,6 +48,7 @@ namespace CricketTeamDistributor
         {
             Game = e.Parameter.ToString();
             BuildMethod();
+            
         }
 
         private void RebuildButton_Click(object sender, RoutedEventArgs e)
@@ -66,136 +68,144 @@ namespace CricketTeamDistributor
             get { return TeamTwo; }
         }
 
-        private void BuildMethod()
+        private async void BuildMethod()
         {
             List<Player> BuildList = MyClass.SelectedList;
-
-            if (CheckEven(BuildList.Count))
+            if (BuildList.Count <= 5)
             {
-                //EvenPlayersAlgorithm
-                int[] TotalRating = new int[BuildList.Count];
-
-                for (int i = 0; i < BuildList.Count; i++)
-                {
-                    TotalRating[i] = BuildList[i].FirstAtt + BuildList[i].SecondAtt;
-                }
-
-                int RatingsForTeams = TotalRating.Sum();
-                int RatingTeamA;
-
-                RatingTeamA = RatingsForTeams / 2;
-
-                int PlayersPerTeam = BuildList.Count / 2;
-
-                Random r = new Random();
-
-                int[] PermuteArray = new int[PlayersPerTeam];
-
-                while (true)
-                {
-                    for (int i = 0; i < PlayersPerTeam; i++)
-                    {
-                        PermuteArray[i] = r.Next(0, BuildList.Count());
-                        for (int j = 0; j < i; j++)
-                        {
-                            if (PermuteArray[i] == PermuteArray[j])
-                            {
-                                i--;
-                            }
-                        }
-                    }
-
-                    int[] RatingArray = new int[PermuteArray.Count()];
-
-                    for (int i = 0; i < PermuteArray.Count(); i++)
-                    {
-                        RatingArray[i] = TotalRating[PermuteArray[i]];
-                    }
-
-                    if (RatingTeamA == RatingArray.Sum())
-                    {
-                        for (int i = 0; i < PermuteArray.Count(); i++)
-                        {
-                            TeamOne.Add(BuildList[PermuteArray[i]]);
-                        }
-                        TeamTwo = BuildList.Except(TeamOne).ToList();
-                        break;
-                    }
-                }
-                
-                ///End
+                Frame.Navigate(typeof(MyTeam), Game);
+                MessageDialog msgbox = new MessageDialog("Kindly build teams using more than 5 Players!");
+                await msgbox.ShowAsync();
             }
             else
             {
-                int[] TotalRating = new int[BuildList.Count];
-
-                for (int i = 0; i < BuildList.Count; i++)
+                if (CheckEven(BuildList.Count))
                 {
-                    TotalRating[i] = BuildList[i].FirstAtt + BuildList[i].SecondAtt;
-                }
+                    //EvenPlayersAlgorithm
+                    int[] TotalRating = new int[BuildList.Count];
 
-                int lowest = TotalRating.Min();
-
-
-                for (int i = 0; i < BuildList.Count; i++)
-                {
-                    
-                    if (lowest == TotalRating[i])
+                    for (int i = 0; i < BuildList.Count; i++)
                     {
-                        BicholiBox.Text = "Bicholi:"+ BuildList[i].Name;
-                        BuildList.RemoveAt(i);
-                        break;
+                        TotalRating[i] = BuildList[i].FirstAtt + BuildList[i].SecondAtt;
                     }
-                }
-                int RatingsForTeams = TotalRating.Sum();
-                int RatingTeamA;
 
-                RatingTeamA = RatingsForTeams / 2;
+                    int RatingsForTeams = TotalRating.Sum();
+                    int RatingTeamA;
 
-                int PlayersPerTeam = BuildList.Count / 2;
+                    RatingTeamA = RatingsForTeams / 2;
 
-                Random r = new Random();
+                    int PlayersPerTeam = BuildList.Count / 2;
 
-                int[] PermuteArray = new int[PlayersPerTeam];
+                    Random r = new Random();
 
-                while (true)
-                {
-                    for (int i = 0; i < PlayersPerTeam; i++)
+                    int[] PermuteArray = new int[PlayersPerTeam];
+
+                    while (true)
                     {
-                        PermuteArray[i] = r.Next(0, BuildList.Count());
-                        for (int j = 0; j < i; j++)
+                        for (int i = 0; i < PlayersPerTeam; i++)
                         {
-                            if (PermuteArray[i] == PermuteArray[j])
+                            PermuteArray[i] = r.Next(0, BuildList.Count());
+                            for (int j = 0; j < i; j++)
                             {
-                                i--;
+                                if (PermuteArray[i] == PermuteArray[j])
+                                {
+                                    i--;
+                                }
                             }
                         }
-                    }
 
-                    int[] RatingArray = new int[PermuteArray.Count()];
+                        int[] RatingArray = new int[PermuteArray.Count()];
 
-                    for (int i = 0; i < PermuteArray.Count(); i++)
-                    {
-                        RatingArray[i] = TotalRating[PermuteArray[i]];
-                    }
-
-                    if (RatingTeamA == RatingArray.Sum())
-                    {
                         for (int i = 0; i < PermuteArray.Count(); i++)
                         {
-                            TeamOne.Add(BuildList[PermuteArray[i]]);
+                            RatingArray[i] = TotalRating[PermuteArray[i]];
                         }
-                        TeamTwo = BuildList.Except(TeamOne).ToList();
-                        break;
+
+                        if (RatingTeamA == RatingArray.Sum())
+                        {
+                            for (int i = 0; i < PermuteArray.Count(); i++)
+                            {
+                                TeamOne.Add(BuildList[PermuteArray[i]]);
+                            }
+                            TeamTwo = BuildList.Except(TeamOne).ToList();
+                            break;
+                        }
                     }
+
+                    ///End
+                }
+                else
+                {
+                    int[] TotalRating = new int[BuildList.Count];
+
+                    for (int i = 0; i < BuildList.Count; i++)
+                    {
+                        TotalRating[i] = BuildList[i].FirstAtt + BuildList[i].SecondAtt;
+                    }
+
+                    int lowest = TotalRating.Min();
+
+
+                    for (int i = 0; i < BuildList.Count; i++)
+                    {
+
+                        if (lowest == TotalRating[i])
+                        {
+                            BicholiBox.Text = "Bicholi:" + BuildList[i].Name;
+                            BuildList.RemoveAt(i);
+                            break;
+                        }
+                    }
+                    int RatingsForTeams = TotalRating.Sum();
+                    int RatingTeamA;
+
+                    RatingTeamA = RatingsForTeams / 2;
+
+                    int PlayersPerTeam = BuildList.Count / 2;
+
+                    Random r = new Random();
+
+                    int[] PermuteArray = new int[PlayersPerTeam];
+
+                    while (true)
+                    {
+                        for (int i = 0; i < PlayersPerTeam; i++)
+                        {
+                            PermuteArray[i] = r.Next(0, BuildList.Count());
+                            for (int j = 0; j < i; j++)
+                            {
+                                if (PermuteArray[i] == PermuteArray[j])
+                                {
+                                    i--;
+                                }
+                            }
+                        }
+
+                        int[] RatingArray = new int[PermuteArray.Count()];
+
+                        for (int i = 0; i < PermuteArray.Count(); i++)
+                        {
+                            RatingArray[i] = TotalRating[PermuteArray[i]];
+                        }
+
+                        if (RatingTeamA == RatingArray.Sum())
+                        {
+                            for (int i = 0; i < PermuteArray.Count(); i++)
+                            {
+                                TeamOne.Add(BuildList[PermuteArray[i]]);
+                            }
+                            TeamTwo = BuildList.Except(TeamOne).ToList();
+                            break;
+                        }
+                    }
+
+                    ///End
                 }
 
-                ///End
+
+                TeamA.DataContext = PlayersModelTeamOne;
+                TeamB.DataContext = PlayersModelTeamTwo;
             }
-
-
-            TeamA.DataContext = PlayersModelTeamOne;
-            TeamB.DataContext = PlayersModelTeamTwo;
         }
 
         public bool Helper(List<Player> a, List<Player> b, int i, int j)
@@ -224,7 +234,5 @@ namespace CricketTeamDistributor
             }
         }
 
-        
-        
     }
 }

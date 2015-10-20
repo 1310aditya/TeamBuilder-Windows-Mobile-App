@@ -11,7 +11,7 @@
     <Grid>
         <TextBlock             
             HorizontalAlignment="Left" Height="46" Margin="35,51,0,0" 
-            TextWrapping="Wrap" Text="My Team" VerticalAlignment="Top" Width="115"
+            TextWrapping="Wrap" Text="My Team" VerticalAlignment="Top"
             Style="{ThemeResource SubheaderTextBlockStyle}"
            />
         <Button
