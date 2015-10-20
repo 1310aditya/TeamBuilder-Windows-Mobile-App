@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -26,7 +27,16 @@ namespace CricketTeamDistributor
         public MainPage()
         {
             this.InitializeComponent();
-            
+            //List<int> a = new List<int>();
+            //a.Add(1);
+            //a.Add(2);
+            //a.Add(3);
+            //a.Add(4);
+            //a.Add(5);
+            //a.Add(6);
+            //a.Add(7);
+            //string x = JsonConvert.SerializeObject(a);
+            //List<int> b = JsonConvert.DeserializeObject<List<int>>(x);
             this.NavigationCacheMode = NavigationCacheMode.Required;
         }
 

@@ -1,5 +1,6 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
-    <LocalAssembly PathName="c:\users\anuradha\documents\github\teambuilder1.0\cricketteamdistributor\obj\debug\intermediatexaml\cricketteamdistributor.exe" HashGuid="3b3dccc2-5d9c-553c-d363-6532974dbb3a" />
+    <LocalAssembly PathName="c:\users\anuradha\documents\github\teambuilder1.0\cricketteamdistributor\obj\debug\intermediatexaml\cricketteamdistributor.exe" HashGuid="73d28c8b-22cc-b5f1-21ae-62d84aaf2b21" />
+    <ReferenceAssembly PathName="c:\users\anuradha\documents\github\teambuilder1.0\packages\newtonsoft.json.7.0.1\lib\portable-net40+sl5+wp80+win8+wpa81\newtonsoft.json.dll" HashGuid="0b4cdfc1-2257-2e75-23cf-4052e97b309e" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>

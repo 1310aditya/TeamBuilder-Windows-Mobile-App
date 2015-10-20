@@ -19,6 +19,9 @@
     <AppxPackagedFile Include="C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\CricketTeamDistributor.exe">
       <PackagePath>CricketTeamDistributor.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\packages\Newtonsoft.Json.7.0.1\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\Assets\062814-World-Cup-Colombia-James-Rodriguez-PI-CH.vadapt.620.high.0.jpg">
       <PackagePath>Assets\062814-World-Cup-Colombia-James-Rodriguez-PI-CH.vadapt.620.high.0.jpg</PackagePath>
     </AppxPackagedFile>

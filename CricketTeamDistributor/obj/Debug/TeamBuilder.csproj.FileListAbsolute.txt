@@ -297,6 +297,8 @@ C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\bin\Deb
 C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\resources.pri
 C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\AppxManifest.xml
 C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\TeamBuilder.build.appxrecipe
+C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\Newtonsoft.Json.dll
+C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\Newtonsoft.Json.xml
 C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\App.g.i.cs
 C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\App.g.cs
 C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\AddNotif.g.i.cs
@@ -329,6 +331,7 @@ C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\obj\Deb
 C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\XamlSaveStateFile.xml
 C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\CricketTeamDistributor.exe
 C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\CricketTeamDistributor.pdb
+C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\TeamBuilder.csproj.GenerateResource.Cache
 C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\priconfig.xml
 C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\priconfig.xml.intermediate
 C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\layout.resfiles
