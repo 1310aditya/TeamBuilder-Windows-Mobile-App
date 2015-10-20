@@ -30,6 +30,7 @@ namespace CricketTeamDistributor
         public BuildTeam()
         {
             this.InitializeComponent();
+            
         }
 
         /// <summary>
