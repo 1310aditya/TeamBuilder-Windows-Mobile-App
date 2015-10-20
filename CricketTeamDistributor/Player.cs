@@ -19,6 +19,11 @@ namespace CricketTeamDistributor.Assets
         public int SecondAtt { get; set; }
     }
 
+    public static class MyClass
+    {
+        public static List<Player> SelectedList;
+    }
+
     public class PlayerFile 
     {
         public const string CricketTeamFile = "CricketFile";

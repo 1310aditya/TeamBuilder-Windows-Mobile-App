@@ -27,7 +27,7 @@ namespace CricketTeamDistributor
     {
         static string Game = "";
         public List<Player> Team = new List<Player>();
-        public List<Player> SelectedList = new List<Player>();
+        //public List<Player> SelectedList = new List<Player>();
         public MyTeam()
         {
             this.InitializeComponent();
@@ -73,6 +73,8 @@ namespace CricketTeamDistributor
 
         private void BuildTeamButton_Click(object sender, RoutedEventArgs e)
         {
+            MyClass.SelectedList = new List<Player>();
+            ObtainSelectedItems();
             Frame.Navigate(typeof(BuildTeam),Game);
         }
 
@@ -80,7 +82,7 @@ namespace CricketTeamDistributor
         {
             List<Player> OldList = await PlayerFile.ViewMyPlayers(Game);
             ObtainSelectedItems();
-            List<Player> ToDelList = SelectedList;
+            List<Player> ToDelList = MyClass.SelectedList;
             
             if (ToDelList.Count == 0)
             {
@@ -139,7 +141,7 @@ namespace CricketTeamDistributor
 
         private void ObtainSelectedItems()
         {
-            SelectedList = TeamView.SelectedItems.OfType<Player>().ToList();
+            MyClass.SelectedList = TeamView.SelectedItems.OfType<Player>().ToList();
         }
         
     }

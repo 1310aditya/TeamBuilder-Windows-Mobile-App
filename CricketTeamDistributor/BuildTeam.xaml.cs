@@ -60,13 +60,9 @@ namespace CricketTeamDistributor
             get { return TeamTwo; }
         }
 
-        private async void BuildMethod()
+        private void BuildMethod()
         {
-            //TeamBuilding Algorithm
-
-            //Correct this. Take selected items from where Build Button is entered.
-
-            List<Player> BuildList = await PlayerFile.ViewMyPlayers(Game);
+            List<Player> BuildList = MyClass.SelectedList;
 
             if (CheckEven(BuildList.Count))
             {

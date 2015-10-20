@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -32,9 +33,12 @@ namespace CricketTeamDistributor
         /// </summary>
         /// <param name="e">Event data that describes how this page was reached.
         /// This parameter is typically used to configure the page.</param>
-        protected override void OnNavigatedTo(NavigationEventArgs e)
+        protected override async void OnNavigatedTo(NavigationEventArgs e)
         {
             GameTextBlock.Text = e.Parameter.ToString();
+
+            MessageDialog msgbox = new MessageDialog("Welcome to the Team Builder!\n Ever went to the field and had to undergo the hassle of dividing teams for cricket or football? And end up fighting amongst friends? The Team Builder stores your friends and your attributes. All you have to do is select the players in the game today and 'Build'!\n Voila ! You have 2 competitive teams ready to go.\nInstructions:\n1.To add a Player to Your list of player use 'Add Player'.\n 2. To View existing players in list use 'My Team'\n3.To Build Your teams for the game, choose 'Build Team' and select players for dividing amongst teams.");
+            await msgbox.ShowAsync();
 
             if (GameTextBlock.Text == "Cricket")
             {
