@@ -21,8 +21,12 @@
             HorizontalAlignment="Center" 
             TextWrapping="Wrap" 
             Text="TextBlock" VerticalAlignment="Center" 
-            Width="239"
             Style="{ThemeResource HeaderTextBlockStyle}"/>
+        
+        <Button 
+            x:Name="Help" Grid.Row="0" Content="How to?" Margin="10,10,0,0"
+            HorizontalAlignment="Left" VerticalAlignment="Top" Click="Help_Click" BorderBrush="{x:Null}" Foreground="White" Background="{x:Null}"/>
+        
         <Button 
             x:Name="AddButton" Grid.Row="1" Margin="0,-8"
             Click="AddButton_Click" BorderThickness="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"

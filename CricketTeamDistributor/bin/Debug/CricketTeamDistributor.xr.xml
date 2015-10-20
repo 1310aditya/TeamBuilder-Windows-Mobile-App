@@ -50,6 +50,8 @@
       <RootProperty Name="Opacity" />
       <RootProperty Name="BorderThickness" />
       <RootProperty Name="Background" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="Foreground" />
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="CricketTeamDistributor.AddNotif" />
@@ -94,6 +96,7 @@
     <RootType FullName="CricketTeamDistributor.MainPage" />
     <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.StaticResourceExtension" />
     <RootType FullName="CricketTeamDistributor.MyTeam" />
+    <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.NullExtension" />
     <RootType FullName="CricketTeamDistributor.Page2" />
   </Roots.RootTypes>
 </Roots>

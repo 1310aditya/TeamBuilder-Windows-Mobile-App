@@ -30,7 +30,12 @@ namespace CricketTeamDistributor
         public BuildTeam()
         {
             this.InitializeComponent();
-            
+            Windows.Phone.UI.Input.HardwareButtons.BackPressed += HardwareButtons_BackPressed;
+        }
+
+        protected void HardwareButtons_BackPressed(object sender, BackPressedEventArgs e)
+        {
+            Frame.Navigate(typeof(Page2), Game);
         }
 
         /// <summary>

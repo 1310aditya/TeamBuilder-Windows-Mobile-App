@@ -61,10 +61,10 @@
         <TextBlock HorizontalAlignment="Left" Margin="52,47,0,0" 
                    TextWrapping="Wrap" 
                    Text="Team A" FontSize="30" TextAlignment="Center" 
-                   VerticalAlignment="Top" Height="48" Width="104"/>
+                   VerticalAlignment="Top" Height="48"/>
 
         <TextBlock HorizontalAlignment="Left" Margin="239,47,0,0" 
         	TextWrapping="Wrap" Text="Team B" FontSize="30" 
-        	VerticalAlignment="Top" Height="48" Width="99"/>
+        	VerticalAlignment="Top" Height="48"/>
     </Grid>
 </Page>

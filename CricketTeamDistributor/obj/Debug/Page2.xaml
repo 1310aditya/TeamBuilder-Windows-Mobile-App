@@ -21,9 +21,13 @@
             HorizontalAlignment="Center" 
             TextWrapping="Wrap" 
             Text="TextBlock" VerticalAlignment="Center" 
-            Width="239"
             Style="{ThemeResource HeaderTextBlockStyle}"/>
+        
         <Button x:ConnectionId='1' 
+            x:Name="Help" Grid.Row="0" Content="How to?" Margin="10,10,0,0"
+            HorizontalAlignment="Left" VerticalAlignment="Top"                    BorderBrush="{x:Null}" Foreground="White" Background="{x:Null}"/>
+        
+        <Button x:ConnectionId='2' 
             x:Name="AddButton" Grid.Row="1" Margin="0,-8"
                                     BorderThickness="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
             >
@@ -34,7 +38,7 @@
             </Grid>
         </Button>
 
-        <Button x:ConnectionId='2'
+        <Button x:ConnectionId='3'
             x:Name="BuildButton" Grid.Row="2" Margin="0,-8"
                                       BorderThickness="0"
             >
@@ -45,7 +49,7 @@
             </Grid>
         </Button>
         
-        <Button x:ConnectionId='3'
+        <Button x:ConnectionId='4'
             x:Name="ViewButton" Grid.Row="3"
                                      BorderThickness="0" Margin="0,-8"
             >

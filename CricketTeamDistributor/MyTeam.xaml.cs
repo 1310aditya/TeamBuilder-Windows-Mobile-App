@@ -7,6 +7,7 @@ using System.Runtime.InteropServices.WindowsRuntime;
 using System.Threading.Tasks;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.Phone.UI.Input;
 using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
@@ -31,7 +32,13 @@ namespace CricketTeamDistributor
         public MyTeam()
         {
             this.InitializeComponent();
+            Windows.Phone.UI.Input.HardwareButtons.BackPressed += HardwareButtons_BackPressed;
             Loaded += MyTeam_Loaded;
+        }
+
+        protected void HardwareButtons_BackPressed(object sender, BackPressedEventArgs e)
+        {
+            Frame.Navigate(typeof(Page2), Game);
         }
 
         void MyTeam_Loaded(object sender, RoutedEventArgs e)
