@@ -29,13 +29,20 @@ namespace CricketTeamDistributor
         {
             this.InitializeComponent();
             this.NavigationCacheMode = NavigationCacheMode.Required;
-            Windows.Phone.UI.Input.HardwareButtons.BackPressed += HardwareButtons_BackPressed;
+        }
+        
+        protected override void OnNavigatedFrom(NavigationEventArgs e)
+        {
+            Windows.Phone.UI.Input.HardwareButtons.BackPressed -= HardwareButtons_BackPressed;
         }
 
-        private void HardwareButtons_BackPressed(object sender, Windows.Phone.UI.Input.BackPressedEventArgs e)
+        protected void HardwareButtons_BackPressed(object sender, Windows.Phone.UI.Input.BackPressedEventArgs e)
         {
-            return;
+            Application.Current.Exit();
         }
+
+
+
 
         /// <summary>
         /// Invoked when this page is about to be displayed in a Frame.
@@ -44,8 +51,8 @@ namespace CricketTeamDistributor
         /// This parameter is typically used to configure the page.</param>
         protected override async void OnNavigatedTo(NavigationEventArgs e)
         {
+            Windows.Phone.UI.Input.HardwareButtons.BackPressed += HardwareButtons_BackPressed;
             datamodel temp = new datamodel();
-            
             temp.src = "Assets/cricket-hd-wallpapers.jpg";
             temp.title = "Cricket";
             CricketButton.DataContext = temp;

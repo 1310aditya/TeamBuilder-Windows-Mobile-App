@@ -87,7 +87,7 @@ namespace CricketTeamDistributor.Assets
             }
             else
             {
-                Team = await JsonSerialization.ReadFromJsonFile(CricketTeamFile);
+                Team = await JsonSerialization.ReadFromJsonFile(FootballTeamFile);
             }
             return Team;
         }

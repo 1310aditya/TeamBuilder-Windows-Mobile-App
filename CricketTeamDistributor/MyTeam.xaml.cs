@@ -142,8 +142,10 @@ namespace CricketTeamDistributor
             }
             catch (FileNotFoundException)
             {
+                MessageDialog msgbox = new MessageDialog("No Players Added Yet!");
+                msgbox.ShowAsync(); 
                 Frame.Navigate(typeof(AddTeam), Game);
-            }
+             }
         }
 
         private void ObtainSelectedItems()

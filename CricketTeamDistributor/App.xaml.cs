@@ -41,7 +41,7 @@ namespace CricketTeamDistributor
             this.Suspending += this.OnSuspending;
         }
 
-        private void HardwareButtons_BackPressed(object sender, BackPressedEventArgs e)
+        public void HardwareButtons_BackPressed(object sender, BackPressedEventArgs e)
         {
             Frame frame = Window.Current.Content as Frame;
             if (frame == null)
@@ -54,6 +54,8 @@ namespace CricketTeamDistributor
                 e.Handled = true;
                 frame.GoBack();
             }
+
+            //Application.Current.Exit();
         }
 
         /// <summary>

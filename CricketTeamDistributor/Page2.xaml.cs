@@ -88,8 +88,20 @@ namespace CricketTeamDistributor
 
         private async void BuildButton_Click(object sender, RoutedEventArgs e)
         {
-            MyClass.SelectedList = await PlayerFile.ViewMyPlayers(GameTextBlock.Text);
-            Frame.Navigate(typeof(BuildTeam),GameTextBlock.Text);
+            try
+            {
+                MyClass.SelectedList = await PlayerFile.ViewMyPlayers(GameTextBlock.Text);
+                if (MyClass.SelectedList.Count > 5)
+                {
+                    Frame.Navigate(typeof(BuildTeam), GameTextBlock.Text);
+                }
+            }
+            catch (Exception)
+            {
+                MessageDialog NoTeamMsg = new MessageDialog(" No Players added or total players less than 5!");
+                NoTeamMsg.ShowAsync();
+            }
+            
         }
 
         private void ViewButton_Click(object sender, RoutedEventArgs e)

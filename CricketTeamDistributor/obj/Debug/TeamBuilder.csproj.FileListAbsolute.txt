@@ -320,15 +320,15 @@ C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\obj\Deb
 C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\BuildTeam.xaml
 C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\MainPage.xaml
 C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\MyTeam.xaml
+C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\Page2.xaml
 C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\App.xbf
 C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\AddNotif.xbf
 C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\AddTeam.xbf
 C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\BuildTeam.xbf
 C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\MainPage.xbf
 C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\MyTeam.xbf
-C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\XamlSaveStateFile.xml
-C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\Page2.xaml
 C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\Page2.xbf
+C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\XamlSaveStateFile.xml
 C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\CricketTeamDistributor.exe
 C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\CricketTeamDistributor.pdb
 C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\TeamBuilder.csproj.GenerateResource.Cache
@@ -344,4 +344,3 @@ C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\obj\Deb
 C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\qualifiers.txt.intermediate
 C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\ProjectArchitectures.txt
-C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\TeamBuilder.csprojResolveAssemblyReference.cache
