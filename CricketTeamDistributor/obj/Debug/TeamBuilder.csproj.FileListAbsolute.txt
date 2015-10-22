@@ -344,3 +344,4 @@ C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\obj\Deb
 C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\qualifiers.txt.intermediate
 C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\ProjectArchitectures.txt
+C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\obj\Debug\TeamBuilder.csprojResolveAssemblyReference.cache

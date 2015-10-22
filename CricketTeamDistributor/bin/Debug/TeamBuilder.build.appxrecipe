@@ -70,32 +70,53 @@
     <AppxPackagedFile Include="C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\Assets\real-madrid-granada.jpg">
       <PackagePath>Assets\real-madrid-granada.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\Assets\Small44x44.scale-240.jpg">
+      <PackagePath>Assets\Small44x44.scale-240.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\Assets\SplashScreen.scale-240.jpg">
+      <PackagePath>Assets\SplashScreen.scale-240.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\Assets\Square150x150.scale-240.jpg">
+      <PackagePath>Assets\Square150x150.scale-240.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\Assets\Square170x170.scale-240.jpg">
+      <PackagePath>Assets\Square170x170.scale-240.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\Assets\Square360x360.scale-240.jpg">
+      <PackagePath>Assets\Square360x360.scale-240.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\Assets\Stadium_Fifa.jpg">
       <PackagePath>Assets\Stadium_Fifa.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\Assets\StoreLogo.scale-240.jpg">
+      <PackagePath>Assets\StoreLogo.scale-240.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\Assets\Wide.scale-240.jpg">
+      <PackagePath>Assets\Wide.scale-240.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\Assets\Logo.scale-240.png">
       <PackagePath>Assets\Logo.scale-240.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\Assets\SmallLogo.scale-240.png">
       <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\Assets\SplashScreen.scale-240.png">
       <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\Assets\Square71x71Logo.scale-240.png">
       <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\Assets\StoreLogo.scale-240.png">
       <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\Assets\WideLogo.scale-240.png">
       <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anuradha\Documents\GitHub\TeamBuilder1.0\CricketTeamDistributor\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
